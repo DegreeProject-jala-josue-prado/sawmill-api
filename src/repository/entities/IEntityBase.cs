@@ -1,4 +1,7 @@
-public interface IEntityBase
+namespace yume_api.src.repository.entities
 {
-  Guid Id { get; set; }
+  public interface IEntityBase
+  {
+    Guid Id { get; set; }
+  }
 }

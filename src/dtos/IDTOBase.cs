@@ -1,4 +1,7 @@
-public interface IDTOBase
+namespace yume_api.src.dtos
 {
-    Guid Id { get; set; }
+    public interface IDTOBase
+    {
+
+    }
 }
